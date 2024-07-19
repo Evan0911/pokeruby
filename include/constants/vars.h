@@ -72,7 +72,8 @@
 #define VAR_CRUISE_STEP_COUNT      0x404A
 #define VAR_LOTTERY_RND_L          0x404B
 #define VAR_LOTTERY_RND_H          0x404C
-
+#define VAR_UNUSED_0x404D          0x404D
+#define VAR_REPEL_LAST_USED        0x404E
 #define VAR_BARBOACH_SIZE_RECORD   0x404F
 #define VAR_LITTLEROOT_STATE       0x4050
 #define VAR_ROUTE102_ACCESSIBLE    0x4051

@@ -8,6 +8,8 @@
 #include "string_util.h"
 #include "strings.h"
 
+#include "event_data.h"
+
 struct Item
 {
     u8 name[14];
@@ -522,4 +524,9 @@ ItemUseFunc ItemId_GetBattleFunc(u16 itemId)
 u8 ItemId_GetSecondaryId(u16 itemId)
 {
     return gItems[SanitizeItemId(itemId)].secondaryId;
+}
+
+void ItemId_GetHoldEffectParam_Script()
+{
+    VarSet(VAR_RESULT, ItemId_GetHoldEffectParam(VarGet(VAR_0x8004)));
 }

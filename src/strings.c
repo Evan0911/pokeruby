@@ -236,6 +236,7 @@ const u8 gOtherText_BootedTM[] = _("Booted up a TM.");
 const u8 gOtherText_BootedHM[] = _("Booted up an HM.");
 const u8 gOtherText_ContainsMove[] = _("It contained\n{STR_VAR_1}.\pTeach {STR_VAR_1}\nto a POKéMON?");
 const u8 gOtherText_UsedItem[] = _("{PLAYER} used the\n{STR_VAR_2}.{PAUSE_UNTIL_PRESS}");
+const u8 gText_PlayerUsedRepel[] = _("{PLAYER} used the\n{STR_VAR_2}.");
 const u8 gOtherText_RepelLingers[] = _("But the effects of a REPEL lingered\nfrom earlier.{PAUSE_UNTIL_PRESS}");
 const u8 gOtherText_UsedFlute[] = _("{PLAYER} used the\n{STR_VAR_2}.\pWild POKéMON will be lured.{PAUSE_UNTIL_PRESS}");
 const u8 gOtherText_UsedRepel[] = _("{PLAYER} used the\n{STR_VAR_2}.\pWild POKéMON will be repelled.{PAUSE_UNTIL_PRESS}");

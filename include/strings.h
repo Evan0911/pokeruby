@@ -217,6 +217,7 @@ extern const u8 gOtherText_BootedTM[];
 extern const u8 gOtherText_BootedHM[];
 extern const u8 gOtherText_ContainsMove[];
 extern const u8 gOtherText_UsedItem[];
+extern const u8 gText_PlayerUsedRepel[];
 extern const u8 gOtherText_RepelLingers[];
 extern const u8 gOtherText_UsedFlute[];
 extern const u8 gOtherText_UsedRepel[];
