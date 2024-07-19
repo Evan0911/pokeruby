@@ -718,7 +718,7 @@ static u8 SaveDialogCB_ProcessConfirmYesNoMenu(void)
             saveDialogCallback = SaveDialogCB_DisplaySavingMessage;
             return SAVE_IN_PROGRESS;
         default:
-            saveDialogCallback = SaveDialogCB_SaveFileExists;
+            saveDialogCallback = SaveDialogCB_DisplaySavingMessage;
             return SAVE_IN_PROGRESS;
         }
         break;
